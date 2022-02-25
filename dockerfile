@@ -1,3 +1,4 @@
 FROM nginx
-ADD . /usr/share/nginx/html
+rm /var/www/html/index.html
+ADD . /var/www/html
 
